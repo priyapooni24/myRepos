@@ -1,0 +1,127 @@
+#student-info, #employee-info, #manager-info {
+	margin-bottom: 10;
+	margin-top:10px;
+	margin-left:10px;
+	height:500px;
+}
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+/* A single tag */
+#panelsize {
+	margin-bottom: 0;
+    border-radius: 0;
+	margin-top:0;
+	margin-left:-20px;
+	height:500px;
+}
+#panelbody {
+	margin-left: 100px;
+	margin-top: 90px;
+	margin-bottom: 200px;
+}
+.panel-default{
+	margin:0px;
+}
+.panel-primary {
+	margin-left: 100px;
+	margin-top: 90px;
+	margin-bottom: 200px;
+	width:400px;
+}
+/* A single element */
+input {
+	width:50px;
+}
+
+/* unvisited link */
+#addlink:link,#editlink:link,#dellink:link,#log:link, a:link {
+    color: green;
+}
+
+/* visited link */
+a:visited {
+    color: blue;
+}
+
+/* mouse over link */
+#addlink:hover,#editlink:hover,#dellink:hover,#log:hover, a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+} 
+
+/* apply properties on multiple tag */
+img, #addlink, #editlink, #dellink ,#log {
+	margin-top:20px;
+	margin-bottom:10px;
+}
+input[type=text]:hover {
+  border: 1px solid black;
+}
+input[type=email]:hover {
+  border: 1px solid black;
+}
+button[type=submit]:hover {
+  border: 1px solid black;
+}
+
+/* Footer content */
+.column3 {
+	float:left;
+	height:auto;
+	margin-left:130px;
+	margin-bottom:20px;
+	margin-top:20px;
+	width:auto;
+}
+.head {
+	color:#333333;
+}
+.column0 {
+	float:left;
+	height:180;
+	margin-left:10px;
+	padding:0 10px;
+	width:300px;
+}
+.column1{
+	float:left;
+	height:180;
+	margin-left:10px;
+	padding:0 10px;
+	width:300px;
+}
+.column2 {
+	float:left;
+	height:180;
+	margin-left:10px;
+	padding:0 10px;
+	width:300px;
+}
+color {
+	color: green;
+}
+.content {
+	color: lightblue;
+    float: left;
+    font-size: 12px;
+    height:auto;
+	margin:0 5px 0 15px;
+	width:280;
+}
+
+/* A footer tag */
+footer {
+    background-color: gray;
+	height:100px;
+	width:100%;
+} 
+p{
+	text-align:center;
+}
+

@@ -1,0 +1,115 @@
+<html>
+	<head>
+		<title>Management Home</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">		
+		<link rel="stylesheet" href="css/lib/bootstrap.min.css">
+		<link rel="stylesheet" href="css/multiple-management.css">
+		<link rel ="icon" href= "images/fonantrix-logo.png" type ="image/png">
+	</head>
+	<body>
+		<!--Header-->
+		<header id="header">
+			<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<img src="images/fonantrix-logo.png" alt="fonantrix-logo">
+					</div>
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#" id="addlink">Add</a></li>
+							<li><a href="#" id="editlink">Edit</a></li>
+							<li><a href="#" id="dellink">Delete</a></li>
+							<li><a href="#" id="log">Logout</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!--Main-content-->
+		<div class="container-fluid" id="main-content">
+			<div class="row">
+				<div class="col-md-3 col-sm-3 ">
+					<div class="panel panel-default" id="panelsize">
+						<div class="panel-heading">Select one</div>	
+						<div class="panel-body hidden" id="panelbody">
+							<a href="#" id="studentinfo"><i class="glyphicon glyphicon-user"></i>Student</a><br><br><br><br>
+							<a href="#" id="employeeinfo"><i class="glyphicon glyphicon-user"></i>Employee</a><br><br><br><br>
+							<a href="#" id="managerinfo"><i class="glyphicon glyphicon-user"></i>Manager</a><br><br><br><br>
+						</div>
+					</div>
+				</div>
+				<!--Role of multiple user management-->
+				<div class="col-md-9 col-sm-9">
+					<div>
+						<div class="form-structure panel panel-primary hidden panel-body" id="student-info">
+							<!--Student information-->
+							<div class="panel-heading">Student</div>
+							<form role="form">
+								<div class="form-group">
+									<label>  Name</label>
+									<input type="text" class="form-control" placeholder="Enter your name" size="5">
+								</div>
+								<div class="form-group">
+									<label>  Student Id:</label>
+									<input type="text" class="form-control" placeholder="Enter student id" size="5">
+								</div>
+								<div class="form-group">
+									<label for="email">  Email:</label>
+									<input type="email" class="form-control" placeholder="Enter your email">
+								</div>
+								<button type="submit" class="btn btn-default">  Submit</button>
+							</form>
+						</div>
+						<div  class="form-structure panel panel-primary hidden panel-body" id="employee-info">
+							<!--Employee information-->
+							<div class="panel-heading">Employee Information</div>
+							<form role="form">
+								<div class="form-group">
+									<label>  Name</label>
+									<input type="text" class="form-control" placeholder="Enter your name">
+								</div>
+								<div class="form-group">
+									<label>  Emp Id:</label>
+									<input type="text" class="form-control" placeholder="Enter student id">
+								</div>
+								<div class="form-group">
+									<label for="email">  Email:</label>
+									<input type="email" class="form-control" placeholder="Enter your email">
+								</div>
+								<button type="submit" class="btn btn-default">  Submit</button>
+							</form>
+						</div>
+						<div class="form-structure panel panel-primary hidden panel-body" id="manager-info">
+							<!--Manager information-->
+							<div class="panel-heading">Manager Information</div>
+							<form role="form">
+								<div class="form-group">
+									<label>  Name</label>
+									<input type="text" class="form-control" placeholder="Enter your name">
+								</div>
+								<div class="form-group">
+									<label>  Manager Id:</label>
+									<input type="text" class="form-control" placeholder="Enter student id">
+								</div>
+								<div class="form-group">
+									<label for="email">  Email:</label>
+									<input type="email" class="form-control" placeholder="Enter your email">
+								</div>
+								<button type="submit" class="btn btn-default">  Submit</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--Footer-->
+		<footer>
+			<p>Copyright &copy; 2009 &middot; All Rights Reserved &middot; <a href="http://your website.com/" >My Website</a></p>
+		</footer>
+		<script src="js/lib/jquery.min.js"></script>
+		<script src="js/lib/bootstrap.min.js"></script>
+		<script src="js/management.js"></script>
+	</body>
+</html>
